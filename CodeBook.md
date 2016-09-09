@@ -9,6 +9,8 @@ The data files loaded are:
 * train/X_train.txt
 * train/y_train.txt
 
+# The Variables
+
 In addition there are two supplment infomation files which are:
 * features.txt
 * activity_labels.txt"
