@@ -15,7 +15,18 @@ In addition there are two supplment infomation files which are:
 * features.txt
 * activity_labels.txt"
 
-The detailed names of the variables come from "UCI HAR Dataset/features.txt" and have names for variables such as "tBodyAcc-mean" and dozens more. In the tidying names have been expanded for clairity for example the above name becoms "tBodyAcc-mean". The other names have not been inlcuded here for brevity.
+The detailed names of the variables come from "UCI HAR Dataset/features.txt" and have names for variables such as "tBodyAcc-mean" and dozens more...
+* tBodyAcc-mean()-X
+* tBodyAcc-mean()-Y
+* tBodyAcc-mean()-Z
+* tBodyAcc-std()-X
+* tBodyAcc-std()-Y
+* tBodyAcc-std()-Z
+* tBodyAcc-mad()-X
+* tBodyAcc-mad()-Y
+* tBodyAcc-mad()
+
+The other names have not been inlcuded here for brevity. In the tidying names have been expanded for clairity for example the above name becoms "tBodyAcc-mean". 
 
 THe levels of Varible Activity correspond to an enumeration [1,2,3,4...] and come from "UCI HAR Dataset/activity_labels.txt" and include: 
 * WALKING
