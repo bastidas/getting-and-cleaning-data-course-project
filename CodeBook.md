@@ -1,18 +1,27 @@
 
-#The Data
+# The Data
 
-In the training folder "X_train.txt" is the training set data and "y_train.txt" are the labels for this data.
+The data files loaded are:
+* test/subject_test.txt
+* test/X_test.txt
+* test/y_test.txt
+* train/subject_train.txt
+* train/X_train.txt
+* train/y_train.txt
 
-*test/subject_test.txt
-*test/X_test.txt
-*test/y_test.txt
-*train/subject_train.txt
-*train/X_train.txt
-*train/y_train.txt
+In addition there are two supplment infomation files which are:
+* features.txt
+* activity_labels.txt"
 
-.*Detailed names of the variables come from "UCI HAR Dataset/features.txt" and have names for variables such as "tBodyAcc-mean" and dozens more. In the tidying names have been expanded for clairity for example the above name becoms "tBodyAcc-mean".
+The detailed names of the variables come from "UCI HAR Dataset/features.txt" and have names for variables such as "tBodyAcc-mean" and dozens more. In the tidying names have been expanded for clairity for example the above name becoms "tBodyAcc-mean". The other names have not been inlcuded here for brevity.
 
-.*Levels of Varible Activity come from "UCI HAR Dataset/activity_labels.txt" and include: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) which correspond to an enumeration [1,2,3,4...]
+THe levels of Varible Activity correspond to an enumeration [1,2,3,4...] and come from "UCI HAR Dataset/activity_labels.txt" and include: 
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 # The Process
 The script run_analysis.R does the following actions:
